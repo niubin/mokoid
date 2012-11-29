@@ -8,7 +8,7 @@ class ILedService : public IInterface
 {
 public:
    enum {
-        CONNECT = IBinder::FIRST_CALL_TRANSACTION, //交易号码
+        CONNECT = IBinder::FIRST_CALL_TRANSACTION, //交易号码，自行添加
         LED_ON 
    };
 
